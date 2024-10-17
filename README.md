@@ -4,5 +4,5 @@ The datasets and the pretrained graph language model can be downloaded from: [Da
 Place the datasets and the pre-trained model weights in G2P2_datasets folder. 
 Also the extracted node and text embeddings are provided [here](https://drive.google.com/drive/folders/1moL4FZmCvuXtMKERZgBxRYYLg2JZ1OPH?usp=sharing) which can be placed in the save_folder.
 
-### Running our ZPT model and G2P2 Model with Node and Text Embeeding Fusion:
+### Running our ZPT model and G2P2 Model with Node and Text Embedding Fusion:
 Run the exec_cora.sh and exec_amazon.sh files to get the results. The results will be stored in results_final folder.  
