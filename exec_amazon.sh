@@ -11,7 +11,7 @@ do
     CUDA_VISIBLE_DEVICES=2 python G2P2-Amazon.py --file_flag _latent --data_name Musical_Instruments --lamda 0.5 --seed $(expr $j - 1)  --latent_dim 8 
     CUDA_VISIBLE_DEVICES=2 python ZPT-Amazon.py --file_flag _latent --data_name Musical_Instruments --lamda 0.5 --seed $j
 
-    CUDA_VISIBLE_DEVICES=2 python log_num_neighbour.py --file_flag _latent --value $i --seed $j --data_name Musical_Instruments --file_name MI_final 
+    CUDA_VISIBLE_DEVICES=2 python log.py --file_flag _latent --value 1 --seed $j --data_name Musical_Instruments --file_name MI_final 
 done
 
 
