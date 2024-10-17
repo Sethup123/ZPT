@@ -5,6 +5,8 @@ ii) [Pre-trained Model](https://drive.google.com/drive/folders/13Y04apgjvrhzpxG9
 iii) Place the datasets and the pre-trained model weights in G2P2_datasets folder. 
 iv) Also the extracted node and text embeddings from pre-trained graph-language model provided:
 (https://drive.google.com/drive/folders/1moL4FZmCvuXtMKERZgBxRYYLg2JZ1OPH?usp=sharing) which can be placed in the save_folder.
+v) The splits are provided here: (https://drive.google.com/drive/folders/1kS50iDzi8Ul2mz_J8VepOm2N9BpbnkDv?usp=sharing)
+They can be placed in the org_seed_data folder.
 
 Running our ZPT model and G2P2 Model with Node and Text Embedding Fusion:
 Run the exec_cora.sh and exec_amazon.sh files to get the results. The results will be stored in results_final folder.
