@@ -7,7 +7,7 @@ Also the extracted node and text embeddings are provided [here](https://drive.go
 ### Running our ZPT model and G2P2 Model with Node and Text Embedding Fusion:
 Run the exec_cora.sh and exec_amazon.sh files to get the results. The results will be stored in results_final folder. 
 
-### List of discrete prompts concidered for our experiments
+### List of discrete prompts considered for our experiments
 **Table:** List of discrete prompts used in `+d` baselines and context used in UBCG model for generating class-specific synthetic samples. The best template for the proposed approach is highlighted in **bold**.
 
 | Cora                             | Arts                                   | Industrial                              | MI                                       |
